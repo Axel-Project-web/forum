@@ -1,0 +1,12 @@
+.board {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+
+    padding: 20px 0px;
+}

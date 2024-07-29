@@ -1,0 +1,16 @@
+.wrapper {
+    width: 70%;
+    height: 100vh;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.entry {
+    display: flex;
+    column-gap: 20px;
+
+    padding-bottom: 20px;
+}

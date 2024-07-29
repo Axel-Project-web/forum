@@ -1,0 +1,63 @@
+.header {
+    min-height: 60px;
+
+    padding: 10px 0px 10px 20px;
+
+    display: flex;
+    column-gap: 10px;
+
+    z-index: 1;
+    background-color: white;
+
+    border-bottom: thin solid gainsboro;
+}
+
+.wrapper {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-bottom: thin solid gainsboro;
+
+    transition-duration: .3s;
+
+    &:focus {
+        border-bottom: thin solid rgb(31, 163, 240);
+    }
+}
+
+.status {
+    font-size: 12px;
+}
+
+.userIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.buttonEdit {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+
+    transition-duration: .3s;
+
+    &:hover {
+        background-color: rgb(223, 223, 223);
+    }
+}
+
+.editIcon {
+    width: 20px;
+    height: 20px;
+}
